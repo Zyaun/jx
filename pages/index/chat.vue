@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<!-- 获取历史消息提示 -->
+		<!-- 获取历史消息提示 这是我本地改的 -->
 		<!-- <view class="tips color_fff size_12 align_c" :class="{ 'show':ajax.loading }"  v-if="loading">{{ajax.loadText}}</view> -->
 		<!-- 聊天框 -->
 		<view class="box-1" id="list-box">
@@ -15,6 +15,8 @@
 			</view>
 		</view>
 		<!-- 输入框 -->
+		<!-- 这是本地加的1 -->
+		<!-- 这是本地加的2 -->
 		<view class="box-2">
 			<view class="flex_col">
 				<view class="flex_grow">
