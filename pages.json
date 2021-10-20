@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/index/chat",
+		"style": {
+			"navigationBarTitleText": ""
+		}
+	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "全网短视频去水印"
+			}
+		},
+		{
+		    "path" : "pages/index/table",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "收益记录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+	
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "技术教程"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "全网短视频去水印",
+		"navigationBarBackgroundColor": "#00baff",
+		"backgroundColor": "#F8F8F8",
+		"pageOrientation": "auto" ,//横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
+		"onReachBottomDistance":0
+	},
+	"tabBar":{
+		"color":"#959394",
+		"selectedColor":"#00a8ff",
+		"borderStyle":"black",
+		"backgroundColor":"#fff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tab/index.png",
+				"selectedIconPath":"static/tab/index_sel.png"
+			},
+			// {
+			// 	"pagePath":"pages/news/news",
+			// 	"text":"技术教程",
+			// 	"iconPath":"static/tab/cate.png",
+			// 	"selectedIconPath":"static/tab/cate_sel.png"
+			// },
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"个人中心",
+				"iconPath":"static/tab/mine.png",
+				"selectedIconPath":"static/tab/mine_sel.png"
+			}
+		]
+	}
+}

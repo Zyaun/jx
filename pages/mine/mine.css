@@ -1,0 +1,53 @@
+/* 用户信息 begin */
+page{
+	background: #f1f1f1;
+}
+
+.page{margin-top: 160rpx;}
+.bg{width: 100%;height: 280rpx;background: #00baff;position: fixed;top: 0px;border-bottom-right-radius: 60rpx;border-bottom-left-radius: 60rpx;}
+.user-info{background: #fff; margin: 0 30rpx;display: flex;flex-direction: column;justify-content: center;border-radius:15rpx;z-index: 99;position: relative;margin-top: -90rpx;}
+.user-wapper{display: flex;flex-direction: column;justify-content: center;text-align: center;align-items: center;padding-top:-90rpx;position: relative;top: -60rpx;}
+.user-wapper image{width: 108rpx;height: 108rpx;text-align: center;border-radius: 108rpx;margin-bottom: 20rpx;}
+.data-wapper{display: flex;flex-direction: row;justify-content: center;padding: 20rpx 0;border-top: 1px solid #F1F1F1;}
+.data-wapper>view{display: flex;flex-direction: column;justify-content: center;text-align: center;flex: 1;}
+.data-wapper .num{font-size: 16px;color: #00baff;letter-spacing: 3px;padding-bottom: 6rpx;}
+.data-wapper .tips{font-size: 12px;color: #333;padding-top: 6rpx;}
+
+
+
+/* 用户信息 end */
+
+/* 菜单列表 begin */
+.meau{
+	margin: 20rpx 30rpx;
+}
+.meau-wapper{
+	display: flex;flex-direction: column;border-radius: 20rpx;
+}
+.single-meau{
+	display: flex;flex-direction: row;padding: 20upx 0;background: #fff;margin-bottom: 1px;height: 60rpx;line-height: 60rpx;
+}
+.single-meau1{border-top-left-radius: 20rpx;border-top-right-radius:20rpx;}
+.single-meau0{border-bottom-left-radius: 20rpx;border-bottom-right-radius:20rpx;}
+.single-meau image{
+	width: 42rpx;height: 42rpx;position: relative;top: 8rpx;
+}
+.left-ico{
+	padding-left: 40upx;
+	margin-right: 20upx;
+}
+.right-ico{
+	width: 62upx; height:62upx;flex: 1;text-align: right;margin-right: 40upx;color: #8b9ca9;
+}
+.meau-text{
+	font-size: 12px; color:#8799a3;	
+}
+/* 菜单列表 end */
+
+/* 占位块 */
+.padd{
+	width: 100%; height:20upx;background: #F1F1F1;
+}
+.copyright{font-size: 12px;text-align: center;color: #999;position: fixed;bottom: 120rpx;left: 0;right: 0;}
+.contact{border: none;outline: none;width: 100%;text-align: left;position: relative;left: -30rpx;}
+.user-info .loginbtn{font-size: 14px;border: none;outline: none;background: #00baff;color: #fff;width: 140rpx;height: 60rpx;line-height: 60rpx;}
